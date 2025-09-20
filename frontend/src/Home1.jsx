@@ -1,3 +1,4 @@
+import NavBar from "./NavBar";
 function Home1() {
 
     const object = [{
@@ -51,10 +52,10 @@ function Home1() {
     }]
     return (
         <>
-            <div className="flex min-h-screen flex-col justify-center items-center  py-10 ">
-
-                <h1 className="font-bold text-4xl mb-7">Welcome to BlogVerse</h1>
-                <h1 className="text-gray-500 text-xl text-center mb-7">Discover amazing stories, insights, and ideas from  our community of <br />writers.<span className="text-blue-500 hover:underline cursor-pointer">Sign in</span> to create your own posts and save your favorites.
+            <div className="flex min-h-screen flex-col justify-center items-center  py-2 ">
+                <NavBar/>
+                <h1 className="font-bold text-4xl mb-7 mt-4">Welcome to BlogVerse</h1>
+                <h1 className="text-gray-500 text-xl text-center mb-7">Discover amazing stories, insights, and ideas from  our community of <br />writers.<button className="text-blue-500 hover:underline cursor-pointer">Sign in</button> to create your own posts and save your favorites.
                 </h1>
                 <div className="flex flex-wrap mt-5 w-full pb-5 gap-10 justify-center items-center ">
                     {/* </div><div className="w-1/3 h-1/3 border-1 border-gray-700 shadow-2xs flex  flex-col justify-center py-6"> */}
