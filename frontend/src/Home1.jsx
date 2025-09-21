@@ -60,7 +60,7 @@ function Home1() {
                 <div className="flex flex-wrap mt-5 w-full pb-5 gap-10 justify-center items-center ">
                     {/* </div><div className="w-1/3 h-1/3 border-1 border-gray-700 shadow-2xs flex  flex-col justify-center py-6"> */}
                     {object.map((item) => (
-                        <div className="sm:w-[70%] h-[27%] lg:w[25%] border-1 border-gray-300 shadow-2xs flex  flex-col justify-center items-center  rounded-2xl relative  hover:shadow-2xl ">
+                        <div className="w-[26%] h-[27%] border-1 border-gray-300 shadow-2xs flex  flex-col justify-center items-center  rounded-2xl relative  hover:shadow-2xl ">
 
                             <div key={item.id}>
                                 <img src={item.img} alt="Loading image" className="w-full h-1/3 rounded-t-2xl transition-transform duration-300  hover:scale-102 " />
