@@ -103,14 +103,13 @@ function SignUp() {
     return (
         <div className="flex items-center flex-col  gap-5">
             <NavBar />
-            <h1 className="text-4xl text-blue-800 font-bold">Join BlogVerse</h1>
+            <h1 className=" text-3xl lg:text-4xl text-blue-800 font-bold">Join BlogVerse</h1>
             <p className="text-xl text-gray-600 text-center font-semibold">Create your account and <br></br>start your Blogging journey today</p>
-            <form onSubmit={handleSubmit} className="flex flex-col border-1 border-gray-400 w-1/3 py-7 items-center gap-5 " >
+            <form onSubmit={handleSubmit} className="flex flex-col border-1 border-gray-400  sm:w-[50%] lg:w-1/3 py-7 items-center gap-5 " >
                 <div className="w-[90%] flex flex-col gap-2">
                     <p className="text-md text-gray-700 font-semibold">Full Name</p>
                     <div className="relative">
                         <input className=" pl-10 border-1 border-gray-700 w-full py-2 px-3 rounded-2xl focus:outline-none focus:border-purple-500"
-
                             value={formData.fullName}
                             onChange={handleChange}
                             name="fullName"
